@@ -1,0 +1,79 @@
+\doxysection{STP\+\_\+6.\+\_\+2\+\_\+\+Cs.\+Atelier Class Reference}
+\label{class_s_t_p__6_1_1__2___cs_1_1_atelier}\index{STP\_6.\_2\_Cs.Atelier@{STP\_6.\_2\_Cs.Atelier}}
+
+
+Класс Ателье  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ Init} (string na1, float ar1, float pr1, string na2, float ar2, float pr2, float sk, float mo)
+\begin{DoxyCompactList}\small\item\em Функция инициализации объекта класса Clothing. \end{DoxyCompactList}\item 
+\label{class_s_t_p__6_1_1__2___cs_1_1_atelier_a299a4d67319b58b98980c15b2a840afa} 
+void {\bfseries Display} ()
+\begin{DoxyCompactList}\small\item\em Функция вывода данных \end{DoxyCompactList}\item 
+float \textbf{ Total\+Cost} ()
+\begin{DoxyCompactList}\small\item\em Функция вычисления итоговой стоимости одежды \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс Ателье 
+
+\doxysubsection{Member Function Documentation}
+\label{class_s_t_p__6_1_1__2___cs_1_1_atelier_a60aa6cd939051ced008795268ab2ebbe} 
+\index{STP\_6.\_2\_Cs.Atelier@{STP\_6.\_2\_Cs.Atelier}!Init@{Init}}
+\index{Init@{Init}!STP\_6.\_2\_Cs.Atelier@{STP\_6.\_2\_Cs.Atelier}}
+\doxysubsubsection{Init()}
+{\footnotesize\ttfamily void STP\+\_\+6.\+\_\+2\+\_\+\+Cs.\+Atelier.\+Init (\begin{DoxyParamCaption}\item[{string}]{na1,  }\item[{float}]{ar1,  }\item[{float}]{pr1,  }\item[{string}]{na2,  }\item[{float}]{ar2,  }\item[{float}]{pr2,  }\item[{float}]{sk,  }\item[{float}]{mo }\end{DoxyParamCaption})}
+
+
+
+Функция инициализации объекта класса Clothing. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em na1} & Название первой одежды \\
+\hline
+\mbox{\texttt{ in}}  & {\em ar1} & Площадь потраченой ткани для первой одежды \\
+\hline
+\mbox{\texttt{ in}}  & {\em pr1} & Стоимость единицы площади первой одежды \\
+\hline
+\mbox{\texttt{ in}}  & {\em na2} & Название второй одежды \\
+\hline
+\mbox{\texttt{ in}}  & {\em ar2} & Площадь потраченой ткани для второй одежды \\
+\hline
+\mbox{\texttt{ in}}  & {\em pr2} & Стоимость единицы площади второй одежды \\
+\hline
+\mbox{\texttt{ in}}  & {\em sk} & Коэффициент мастерства мастера \\
+\hline
+\mbox{\texttt{ in}}  & {\em mo} & Стоимость дополнительных аксесуаров в ателье \\
+\hline
+\end{DoxyParams}
+\label{class_s_t_p__6_1_1__2___cs_1_1_atelier_a95cb9c3d458e81d1d9e97baf3c076ffc} 
+\index{STP\_6.\_2\_Cs.Atelier@{STP\_6.\_2\_Cs.Atelier}!TotalCost@{TotalCost}}
+\index{TotalCost@{TotalCost}!STP\_6.\_2\_Cs.Atelier@{STP\_6.\_2\_Cs.Atelier}}
+\doxysubsubsection{TotalCost()}
+{\footnotesize\ttfamily float STP\+\_\+6.\+\_\+2\+\_\+\+Cs.\+Atelier.\+Total\+Cost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Функция вычисления итоговой стоимости одежды 
+
+\begin{DoxyReturn}{Returns}
+Стоимость всех вещей в Ателье
+\end{DoxyReturn}
+Данная функция вычисляет итоговую стоимость всех вещей в ателье по формуле\+: $first.CostProduct + second.CostProduct() + more$.
+
+Код функции выглядит следубщим образом\+: 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{public}\ \textcolor{keywordtype}{float}\ TotalCost()\ \{\ \textcolor{keywordflow}{return}\ first.CostProduct()\ +\ second.CostProduct()\ +\ more;\ \}}
+
+\end{DoxyCode}
+
+
+Результат\+: 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Lab3/\+Lab3/Atelier.\+cs\end{DoxyCompactItemize}
